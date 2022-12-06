@@ -5,6 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sign-up-form</title>
+    <link rel="stylesheet" href="stlye.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lato:ital,wght@0,100;0,300;1,300&family=Nanum+Gothic:wght@400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="img-container">
+        <div class="banner">
+          <div>
+            <img
+              src="./pictures/surfer-icon.png"
+              alt="surfer-icon"
+              class="icon"
+            />
+          </div>
+          <div class="logo-title"><h1>Wave</h1></div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="description">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <strong class="emphasize"> now </strong>to get started.
+          <p>You <strong class="emphasize">know</strong> you want to.</p>
+        </div>
+
+        <div class="form-container">
+          <div class="header">Let's do this!</div>
+
+          <form action="#" method="post" class="form">
+            <div class="input">
+              <label for="first_name">FIRST NAME</label>
+              <input type="text" name="first_name" id="first_name" />
+            </div>
+
+            <div class="input">
+              <label for="last_name">EMAIL</label>
+              <input type="text" name="last_name" id="last_name" />
+            </div>
+
+            <div class="input">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </div>
+
+            <div class="input">
+              <label for="phone_no">PHONE NUMBER</label>
+              <input type="tel" name="phone_no" id="phone_no" />
+            </div>
+
+            <div class="input">
+              <label for="password">PASSWORD</label>
+              <input type="text" name="password" id="password" />
+            </div>
+
+            <div class="input">
+              <label for="password">PASSWORD</label>
+              <input type="text" name="password" id="password" />
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="credentials">
+          <p>Github: SirPopper</p>
+          <a href="https://github.com/SirPopper/sign-up-form" target="_blank"
+            ><img
+              src="./pictures/logo-reddit.svg"
+              alt="reddit-icon"
+              class="reddit-icon"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

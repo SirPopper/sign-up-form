@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background-color: rgb(237, 237, 237);
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.emphasize {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* left side */
+
+.img-container {
+  width: 40vw;
+  background-image: url("./pictures/surfer-g2b40ab96e_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  background-color: rgba(208, 208, 208, 0.7);
+  height: 150px;
+  margin-top: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 90px;
+}
+
+.logo-title {
+  margin-left: 30px;
+  color: rgb(19, 166, 159);
+}
+
+/* right side */
+.right {
+  width: 60vw;
+  margin-top: 100px;
+  margin-left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  width: 80%;
+  max-width: 700px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* Form */
+.form-container {
+  max-width: 900px;
+  background-color: rgb(248, 248, 248);
+  padding: 40px 20px;
+  margin-right: 30px;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.header {
+  font-size: larger;
+  margin-bottom: 40px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+
+  margin-right: 50px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: xx-small;
+  font-weight: bold;
+  color: rgb(80, 80, 80);
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(59, 162, 231);
+}
+
+input:focus {
+  box-shadow: 2px 5px 6px rgb(226, 226, 226);
+}
+
+/* credentials */
+.credentials {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.reddit-icon {
+  height: 40px;
+}
